@@ -40,7 +40,7 @@ rm -rf $HOME/.limon
 rm -f $PREFIX/bin/limon
 
 # Clone fresh copy
-git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.limon
+git clone https://github.com/Asokheli/Limon_Tcp_Bot.git $HOME/.limon
 
 # Install requirements
 pip install --upgrade pip
@@ -50,7 +50,7 @@ pip install -r $HOME/.limon/requirements.txt
 cat << 'EOF' > $PREFIX/bin/limon
 #!/data/data/com.termux/files/usr/bin/bash
 if [ ! -d "$HOME/.limon" ]; then
-    git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.limon
+    git clone https://github.com/Asokheli/Limon_Tcp_Bot.git $HOME/.limon
 fi
 
 cd $HOME/.limon
